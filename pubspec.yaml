@@ -1,6 +1,6 @@
 name: hid_monitor
 description: A hid listening library for cross platform listening to keyboard/mouse events.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ArdWang/hid_monitor
 repository: https://github.com/ArdWang/hid_monitor
 
