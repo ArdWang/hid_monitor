@@ -1,3 +1,9 @@
+
+## 0.0.2
+
+* Update hid_monitor document
+
+
 ## 0.0.1
 
 * Initial release of hid_monitor
