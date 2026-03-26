@@ -5,6 +5,8 @@
 
 A cross-platform Flutter plugin for monitoring HID (Human Interface Device) events including keyboard and mouse input.
 
+> **Note**: This project is a Dart/FFI wrapper around the native libraries provided by [hid_listener](https://github.com/localcc/hid_listener). The native implementations for Windows, macOS, and Linux are based on the work from that repository.
+
 ---
 
 ## English
@@ -358,6 +360,30 @@ if (listenerId != null) {
 - 检查平台特定权限（尤其是在 macOS 上）
 
 ---
+
+## 参考文献与致谢
+
+本项目使用了来自以下项目的原生 HID 监控库：
+
+- **[hid_listener](https://github.com/localcc/hid_listener)** - 跨平台 HID（人机接口设备）监控 C/C++ 库
+  - Windows 原生绑定
+  - macOS 原生绑定
+  - Linux 原生绑定
+
+`hid_monitor` Flutter 插件为这些原生库提供了 Dart/FFI 绑定，使 Flutter 应用程序能够在 Windows、macOS 和 Linux 平台上监控键盘和鼠标事件。
+
+---
+
+## References & Credits
+
+This project uses the native HID monitoring libraries from:
+
+- **[hid_listener](https://github.com/localcc/hid_listener)** - Cross-platform HID (Human Interface Device) monitoring library for C/C++
+  - Windows native bindings
+  - macOS native bindings
+  - Linux native bindings
+
+The `hid_monitor` Flutter plugin provides Dart/FFI bindings to these native libraries, enabling Flutter applications to monitor keyboard and mouse events across Windows, macOS, and Linux platforms.
 
 ## License
 
