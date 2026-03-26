@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Read(//e/Project/Github/flutter/**)",
+      "Bash(mv hid_listener hid_monitor)"
+    ]
+  }
+}

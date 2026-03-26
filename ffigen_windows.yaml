@@ -1,0 +1,26 @@
+name: HidMonitorBindingsWindows
+description: |
+  Bindings for 'windows/hid_monitor_windows.h'
+output: "lib/src/windows/hid_monitor_bindings_windows.dart"
+compiler-opts:
+  - "-Ishared/"
+headers:
+  entry-points:
+    - "windows/hid_monitor_windows.h"
+  include-directives:
+    - "**hid_monitor**.h"
+structs:
+  include:
+    - WindowsKeyboardEventType
+    - WindowsKeyboardEvent
+enums:
+  include:
+    - None
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+  // ignore_for_file: constant_identifier_names
+comments:
+  style: any
+  length: full

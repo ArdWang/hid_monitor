@@ -1,0 +1,26 @@
+name: HidMonitorBindingsLinux
+description: |
+  Bindings for 'linux/hid_monitor_linux.h'
+output: "lib/src/linux/hid_monitor_bindings_linux.dart"
+compiler-opts:
+  - "-Ishared/"
+headers:
+  entry-points:
+    - "linux/hid_monitor_linux.h"
+  include-directives:
+    - "**hid_monitor**.h"
+structs:
+  include:
+    - LinuxKeyboardEventType
+    - LinuxKeyboardEvent
+enums:
+  include:
+    - None
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+  // ignore_for_file: constant_identifier_names
+comments:
+  style: any
+  length: full
