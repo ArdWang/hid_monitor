@@ -1,33 +1,31 @@
-## 2.0.1
+## 0.0.1
 
-Fixed non-ascii keys on linux
+* Initial release of hid_monitor
+* Cross-platform HID (Human Interface Device) listening library
+* Support for Windows, macOS, and Linux platforms
+* Keyboard event monitoring with platform-aware key mapping
+* Mouse event monitoring (move, wheel, button events)
+* Built with FFI for native performance
+* Explicit backend initialization controlled by user
 
-## 2.0.0
+### Features
 
-Keyboard events are now platform-aware and no longer require a correct remapping table in the backend to work properly.
+- **Keyboard Listening**: Register keyboard listeners to capture key events across the system
+- **Mouse Listening**: Register mouse listeners to capture mouse movement, scroll, and button events
+- **Cross-Platform**: Supports Windows, macOS, and Linux with native backend implementations
+- **Platform-Aware**: Keyboard events are now platform-aware with proper key mapping for each OS
+- **High Performance**: Uses FFI (Foreign Function Interface) for direct native library access
 
-Backend initialization is now explicit and controlled by user.
+### Platform Support
 
-## 1.1.2
+| Platform | Status |
+|----------|--------|
+| Windows  | ✓      |
+| macOS    | ✓      |
+| Linux    | ✓      |
 
-Fixed media keys on linux+macos.
+### Technical Details
 
-## 1.1.1
-
-Fixed crash when moving mouse on linux
-
-## 1.1.0
-
-Added mouse events support
-
-## 1.0.2
-
-* Fix example
-
-## 1.0.1
-
-* Update example
-
-## 1.0.0
-
-* Initial release
+- SDK Requirements: Dart >=3.0.0, Flutter >=2.5.0
+- Dependencies: `flutter`, `plugin_platform_interface`, `ffi`
+- Native libraries required for each platform
