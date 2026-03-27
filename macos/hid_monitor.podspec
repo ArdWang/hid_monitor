@@ -23,7 +23,7 @@ A hid listening library for cross platform listening to keyboard/mouse events.
 
   s.dependency 'FlutterMacOS'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '10.13'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'SWIFT_INCLUDE_PATHS' => __dir__ + '/../shared/**' }
   s.swift_version = '5.0'
 end

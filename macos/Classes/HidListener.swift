@@ -1,7 +1,7 @@
 import AppKit
 import CoreGraphics
 import Foundation
-import HidListenerShared
+import HidMonitorShared
 
 var listenerInstance: HidListener?
 
