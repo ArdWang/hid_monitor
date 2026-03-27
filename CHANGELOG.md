@@ -1,3 +1,6 @@
+## 0.0.6
+
+* Modify windows bug
 
 ## 0.0.5
 

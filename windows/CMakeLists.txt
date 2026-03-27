@@ -26,8 +26,6 @@ get_filename_component(SHARED_INC ${CMAKE_CURRENT_SOURCE_DIR}/../shared ABSOLUTE
 add_library(${PLUGIN_NAME} SHARED
   "include/hid_monitor/hid_monitor_plugin_windows.h"
   "hid_monitor_plugin_windows.cpp"
-  "${SHARED_INC}/dart-sdk/include/dart_api_dl.h"
-  "${SHARED_INC}/dart-sdk/include/dart_api_dl.c"
   ${PLUGIN_SOURCES}
 )
 
