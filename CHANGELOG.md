@@ -1,4 +1,8 @@
 
+## 0.0.3
+
+* Update the bug where the plugin doesn't work
+
 ## 0.0.2
 
 * Update hid_monitor document
