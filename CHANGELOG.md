@@ -1,3 +1,6 @@
+## 0.0.4
+
+* Update the bug where the plugin doesn't work and check code
 
 ## 0.0.3
 
