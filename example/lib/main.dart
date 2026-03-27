@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hid_listener/hid_listener.dart';
+import 'package:hid_monitor/hid_monitor.dart';
 
 // ignore: deprecated_member_use
 void listener(RawKeyEvent event) {
