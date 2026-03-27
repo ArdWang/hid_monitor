@@ -6,9 +6,9 @@
 
 #include "generated_plugin_registrant.h"
 
-#include <hid_monitor/hid_listener_plugin_windows.h>
+#include <hid_monitor/hid_monitor_plugin_windows.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
-  HidListenerPluginWindowsRegisterWithRegistrar(
-      registry->GetRegistrarForPlugin("HidListenerPluginWindows"));
+  HidMonitorPluginWindowsRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("HidMonitorPluginWindows"));
 }

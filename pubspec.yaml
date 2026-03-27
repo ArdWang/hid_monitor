@@ -43,11 +43,11 @@ flutter:
   plugin:
     platforms:
       linux:
-        pluginClass: HidListenerPlugin
+        pluginClass: HidMonitorPlugin
       macos:
         pluginClass: HidListenerPlugin
       windows:
-        pluginClass: HidListenerPluginWindows
+        pluginClass: HidMonitorPluginWindows
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
